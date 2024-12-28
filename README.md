@@ -4,7 +4,7 @@ This repository contains a collection of algorithm visualizers implemented in va
 
 ## Algorithms Included:
 
-1. **[Linear Search Visualizer](linear_search_visualizer/)**  
+1. **[Linear Search Visualizer](linear_search_visualizer.cpp)**  
    A visualizer for the **Linear Search** algorithm implemented in C++. It demonstrates how Linear Search traverses through an array to find a target value.
 
 ## How to Use:
