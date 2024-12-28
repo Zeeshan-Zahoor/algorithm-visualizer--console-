@@ -10,7 +10,6 @@ This repository contains a collection of algorithm visualizers implemented in va
 ## How to Use:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/algorithm-visualizers.git
-   cd algorithm-visualizers
+   git clone https://github.com/Zeeshan-Zahoor/algorithm-visualizer--console-.git
 2. Click on the Program file you want to Visualize.
 3. Run the Program and See the Visualization.
