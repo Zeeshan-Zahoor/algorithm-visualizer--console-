@@ -7,9 +7,9 @@
 using namespace std;
 
 // Function for visualization of the array with color-coded elements
-void printArr(const vector<int>& arr, int mid, int target) {
+void printArr(const vector<int>& arr, int st, int end, int mid, int target) {
     cout << "Array: ";
-    for (int i = 0; i < arr.size(); i++) {
+    for (int i = 0; i <arr.size(); i++) {
         if (i == mid) {
             // Highlight the middle element
             cout << "\033[32m" << arr[i] << "\033[0m, ";
@@ -48,7 +48,7 @@ void binarySearch(const vector<int>& arr, int target) {
             end = mid - 1;
         }
         // Visualize the current state of the array
-        printArr(arr, mid, target);
+        printArr(arr, st, end, mid, target);
     
     this_thread::sleep_for(chrono::milliseconds(3000));   // set the dalay to 3 second to observe the search.
     }
@@ -58,8 +58,8 @@ void binarySearch(const vector<int>& arr, int target) {
 }
 
 int main() {
-    vector<int> arr = {1, 2, 4, 6, 7, 12, 23, 34, 89}; // Sorted array
-    int target = 12; // Element to search
+    vector<int> arr = {1, 2, 4, 6, 7, 12, 23, 34, 89, 98, 103, 112}; // Sorted array
+    int target = 98; // Element to search
 
     cout << "\nStarting Binary Search for Target: \033[32m" << target << "\033[0m\n\n";
     binarySearch(arr, target);
