@@ -15,7 +15,8 @@ This repository contains a collection of algorithm visualizers implemented in va
 ### Sorting Algorithms:
 1. **[Bubble Sort Visualizer](Sorting%20Algorithms/bubble_sort_visualizer.cpp)**  
    A visualizer for the **Bubble Sort** algorithm implemented in C++. It demonstrates how Bubble Sort works to sort the Array in a desired order.
-
+2. **[Merge Sort Visualizer](Sorting%20Algorithms/merge_sort_visualizer.cpp)**  
+   A visualizer for the **Merge Sort** algorithm implemented in C++. It demonstrates how Merge Sort works to sort the Array in a desired order.
 ## How to Use:
 1. Clone this repository:
    ```bash
